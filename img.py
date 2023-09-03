@@ -13,7 +13,7 @@ def RGB(event, x, y, flags, param):
 
 cv2.namedWindow('RGB')
 cv2.setMouseCallback('RGB', RGB)
-cap=cv2.VideoCapture(r'C:\Users\freed\Videos\headcountnew.avi')
+cap=cv2.VideoCapture('')
 area=[(422,78),(422,435),(691,436),(702,37)]
 while cpt < maxFrames:
     ret, frame = cap.read()
